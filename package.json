@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Muhammad Faseeh - Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx http-server -p 3000",
+    "start": "npx http-server -p 3000"
+  },
+  "keywords": [
+    "portfolio",
+    "website"
+  ],
+  "author": "Muhammad Faseeh",
+  "license": "MIT"
+}
+
