@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Faseeh - Associate Gen AI Engineer & Software Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="bg-animation">
+        <div class="network-lines"></div>
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="network-nodes">
+            <div class="node"></div>
+            <div class="node"></div>
+            <div class="node"></div>
+            <div class="node"></div>
+            <div class="node"></div>
+            <div class="node"></div>
+            <div class="node"></div>
+            <div class="node"></div>
+            <div class="node"></div>
+            <div class="node"></div>
+        </div>
+    </div>
+    
+    <!-- Custom Cursor -->
+    <div class="custom-cursor" id="cursor"></div>
+    <div class="cursor-trail" id="cursorTrail"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo"><i class="fas fa-brain"></i></div>
+            <ul class="nav-menu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Muhammad Faseeh</h1>
+                <p class="hero-summary">Software Developer crafting thoughtful mobile, web, and AI solutions that make everyday experiences smarter and easier.</p>
+                <p class="hero-subtitle">Associate Gen AI Engineer & Software Developer</p>
+                <p class="hero-description">Computer Science graduate based in Lahore, Pakistan with hands-on project experience spanning Flutter, Unity, Firebase, Next.js, Svelte Kit, and AI-powered systems.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I’m Muhammad Faseeh, a Computer Science graduate from Riphah International University, Lahore. I’ve built real-world projects across mobile, web, and AI platforms while gaining practical experience through internships and student-led initiatives.</p>
+                    <p>My active involvement in tech communities, bootcamps, and leadership roles has sharpened my collaboration, communication, and problem-solving skills. I’m committed to continuous learning with certifications in cloud, AI, and cybersecurity.</p>
+                </div>
+                <div class="education-card">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>Bachelor of Science in Computer Science</h4>
+                        <p class="institution">Riphah International University</p>
+                        <p class="location">Lahore, Pakistan</p>
+                        <p class="duration">Oct 2021 - July 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Slider Section -->
+    <section class="skills-slider-section">
+        <div class="container">
+            <h2 class="section-title">Technologies & Skills</h2>
+            <div class="skills-slider-container">
+                <div class="skills-slider-track">
+                    <!-- First set of skills -->
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <span class="skill-name">Flutter</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-java"></i></div>
+                        <span class="skill-name">Java</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <span class="skill-name">Next.js</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <span class="skill-name">Svelte Kit</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-gamepad"></i></div>
+                        <span class="skill-name">Unity & C#</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                        <span class="skill-name">AI & ML</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <span class="skill-name">MySQL</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <span class="skill-name">Oracle</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <span class="skill-name">PostgreSQL</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                        <span class="skill-name">Docker</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-fire"></i></div>
+                        <span class="skill-name">Firebase</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                        <span class="skill-name">AWS</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <span class="skill-name">Git & GitHub</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                        <span class="skill-name">App Development</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                        <span class="skill-name">APIs</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <span class="skill-name">Deep Learning</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                        <span class="skill-name">DSA</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                        <span class="skill-name">Figma & Canva</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                        <span class="skill-name">Cloud Basics</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-users"></i></div>
+                        <span class="skill-name">Leadership</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                        <span class="skill-name">Communication</span>
+                    </div>
+                    
+                    <!-- Duplicate set for seamless loop -->
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-mobile-alt"></i></div>
+                        <span class="skill-name">Flutter</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-java"></i></div>
+                        <span class="skill-name">Java</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <span class="skill-name">JavaScript</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-react"></i></div>
+                        <span class="skill-name">Next.js</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-js"></i></div>
+                        <span class="skill-name">Svelte Kit</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-gamepad"></i></div>
+                        <span class="skill-name">Unity & C#</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-robot"></i></div>
+                        <span class="skill-name">AI & ML</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <span class="skill-name">MySQL</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <span class="skill-name">Oracle</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <span class="skill-name">PostgreSQL</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-docker"></i></div>
+                        <span class="skill-name">Docker</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-fire"></i></div>
+                        <span class="skill-name">Firebase</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-aws"></i></div>
+                        <span class="skill-name">AWS</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                        <span class="skill-name">Git & GitHub</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-laptop-code"></i></div>
+                        <span class="skill-name">App Development</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                        <span class="skill-name">APIs</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                        <span class="skill-name">Deep Learning</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-project-diagram"></i></div>
+                        <span class="skill-name">DSA</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fab fa-figma"></i></div>
+                        <span class="skill-name">Figma & Canva</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-cloud"></i></div>
+                        <span class="skill-name">Cloud Basics</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-users"></i></div>
+                        <span class="skill-name">Leadership</span>
+                    </div>
+                    <div class="skill-slide-item">
+                        <div class="skill-icon"><i class="fas fa-comments"></i></div>
+                        <span class="skill-name">Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Associate Gen AI Engineer</h3>
+                        <p class="company">Present</p>
+                        <ul class="experience-list">
+                            <li>Developing AI-powered solutions using generative AI technologies and LLMs.</li>
+                            <li>Building and deploying intelligent applications with modern AI frameworks and tools.</li>
+                            <li>Contributing to AI projects that leverage cutting-edge generative models for real-world applications.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Game Developer Intern</h3>
+                        <p class="company">Vanar • Jun 2024 - Aug 2024</p>
+                        <ul class="experience-list">
+                            <li>Designed and developed a knife-throwing game in Unity and C#, balancing mechanics and visuals for engaging gameplay.</li>
+                            <li>Implemented dynamic object interactions, progressive difficulty, and user feedback loops to enhance player experience.</li>
+                            <li>Collaborated with the team to polish builds, debug complex interactions, and prepare the game for release.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Co-Lead</h3>
+                        <p class="company">AWS Learning Club, Riphah • 2024 - 2025</p>
+                        <ul class="experience-list">
+                            <li>Managed and organized AWS-focused workshops, study groups, and certification prep sessions.</li>
+                            <li>Mentored peers on cloud fundamentals, solution architecture, and exam readiness strategies.</li>
+                            <li>Coordinated with faculty and industry speakers to deliver impactful learning experiences.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>President</h3>
+                        <p class="company">Computing Society, Riphah International University • 2024 - 2025</p>
+                        <ul class="experience-list">
+                            <li>Led the society to host tech events, coding competitions, and industry workshops for students.</li>
+                            <li>Coordinated multi-department teams, sponsors, and volunteers to deliver successful events.</li>
+                            <li>Promoted community building and continuous learning across the computing cohort.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>PR & Marketing Representative</h3>
+                        <p class="company">Codemo Teams • 2024 - Present</p>
+                        <ul class="experience-list">
+                            <li>Designed marketing campaigns and community outreach initiatives to grow program awareness.</li>
+                            <li>Created digital assets and maintained brand messaging across social channels and events.</li>
+                            <li>Forged partnerships with student societies and sponsors to amplify engagement.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3><a href="https://github.com/Faseeh021/Care-Cub" target="_blank" rel="noopener noreferrer">Care Cub</a></h3>
+                        <span class="project-badge">Final Year Project</span>
+                    </div>
+                    <p class="project-description">Flutter-based mobile platform that supports parents, doctors, and daycare centers with AI-powered cry analysis, health tracking, milestone guidance, and appointment scheduling.</p>
+                    <div class="project-tags">
+                        <span class="tag">Flutter</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">AI</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3><a href="https://github.com/Faseeh021/Knife-Fury" target="_blank" rel="noopener noreferrer">Knife Fury</a></h3>
+                        <span class="project-badge">Game Project</span>
+                    </div>
+                    <p class="project-description">Unity-based knife-throwing game featuring bidirectional rotation, dynamic speed changes, moving targets, and progressive difficulty to test timing and precision.</p>
+                    <div class="project-tags">
+                        <span class="tag">Unity</span>
+                        <span class="tag">C#</span>
+                        <span class="tag">Game Dev</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3><a href="https://github.com/Faseeh021/Fast-Food-App" target="_blank" rel="noopener noreferrer">MadMate</a></h3>
+                        <span class="project-badge">Mobile App</span>
+                    </div>
+                    <p class="project-description">Fast-food ordering app where users browse menus, place orders, and track delivery in real time using a Firebase backend and map-powered navigation.</p>
+                    <div class="project-tags">
+                        <span class="tag">Flutter</span>
+                        <span class="tag">Firebase</span>
+                        <span class="tag">Maps API</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3><a href="https://github.com/Faseeh021/Pharmacy-Management-System-in-JAVA" target="_blank" rel="noopener noreferrer">Pharmacy Management System</a></h3>
+                        <span class="project-badge">Desktop Application</span>
+                    </div>
+                    <p class="project-description">Java Swing application offering role-based access, billing, and inventory management with a MySQL backend for streamlined pharmacy operations.</p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">MySQL</span>
+                        <span class="tag">Desktop</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3><a href="https://github.com/Faseeh056/BrandGuideLines" target="_blank" rel="noopener noreferrer">AI-based BrandGuideLine Generator</a></h3>
+                        <span class="project-badge">AI Project</span>
+                    </div>
+                    <p class="project-description">An intelligent brand guideline generator that uses AI to create comprehensive brand style guides, including color palettes, typography, logo usage, and design principles based on brand input and analysis.</p>
+                    <div class="project-tags">
+                        <span class="tag">AI</span>
+                        <span class="tag">Generative AI</span>
+                        <span class="tag">LLMs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3><i class="fas fa-code"></i> Languages & Frameworks</h3>
+                    <div class="skills-list">
+                        <span class="skill-item"><i class="fas fa-mobile-alt"></i> Flutter</span>
+                        <span class="skill-item"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-item"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-item"><i class="fab fa-react"></i> Next.js</span>
+                        <span class="skill-item"><i class="fab fa-js"></i> Svelte Kit</span>
+                        <span class="skill-item"><i class="fas fa-gamepad"></i> C# & Unity</span>
+                        <span class="skill-item"><i class="fas fa-brain"></i> TensorFlow</span>
+                        <span class="skill-item"><i class="fas fa-robot"></i> Deep Learning</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skills-list">
+                        <span class="skill-item"><i class="fas fa-fire"></i> Firebase</span>
+                        <span class="skill-item"><i class="fas fa-database"></i> MySQL & Oracle</span>
+                        <span class="skill-item"><i class="fas fa-database"></i> PostgreSQL</span>
+                        <span class="skill-item"><i class="fab fa-docker"></i> Docker</span>
+                        <span class="skill-item"><i class="fab fa-git-alt"></i> Git & GitHub</span>
+                        <span class="skill-item"><i class="fas fa-laptop-code"></i> VS Code / IntelliJ</span>
+                        <span class="skill-item"><i class="fab fa-android"></i> Android Studio</span>
+                        <span class="skill-item"><i class="fab fa-aws"></i> AWS & Cloud</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-lightbulb"></i> Concepts</h3>
+                    <div class="skills-list">
+                        <span class="skill-item"><i class="fas fa-project-diagram"></i> Data Structures & Algorithms</span>
+                        <span class="skill-item"><i class="fas fa-network-wired"></i> API Design</span>
+                        <span class="skill-item"><i class="fas fa-cloud"></i> Cloud Fundamentals</span>
+                        <span class="skill-item"><i class="fas fa-drafting-compass"></i> Software Design</span>
+                        <span class="skill-item"><i class="fas fa-laptop"></i> Application Development</span>
+                        <span class="skill-item"><i class="fas fa-brain"></i> Critical Thinking</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3><i class="fas fa-users"></i> Collaboration & Design</h3>
+                    <div class="skills-list">
+                        <span class="skill-item"><i class="fas fa-chalkboard-teacher"></i> Event & Project Management</span>
+                        <span class="skill-item"><i class="fas fa-comments"></i> Communication & Leadership</span>
+                        <span class="skill-item"><i class="fab fa-figma"></i> Figma & Canva</span>
+                        <span class="skill-item"><i class="fas fa-flask"></i> Google Colab / Jupyter</span>
+                        <span class="skill-item"><i class="fas fa-users-cog"></i> Team Collaboration</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications & Training</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-card-inner">
+                        <div class="achievement-icon">🎓</div>
+                        <div class="achievement-content">
+                            <h3>Coursera Specializations</h3>
+                            <ul>
+                                <li>Object Oriented Programming in Java</li>
+                                <li>Building a Dynamic Web App using PHP & MySQL</li>
+                                <li>Ordered Data Structures</li>
+                                <li>Generative AI</li>
+                                <li>Introduction to Artificial Intelligence (AI)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-card-inner">
+                        <div class="achievement-icon">🏅</div>
+                        <div class="achievement-content">
+                            <h3>Professional Training</h3>
+                            <ul>
+                                <li>Internship in Game Development — Vanar</li>
+                                <li>Site Reliability Engineering: Measuring and Managing Reliability — Google</li>
+                                <li>AWS Academy Cloud Architecting — AWS Training & Certification</li>
+                                <li>Connect and Protect: Networks and Network Security — Coursera</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-description">Based in Lahore, Pakistan. Happy to connect about internships, collaborations, or full-time opportunities.</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-icon">📍</span>
+                        <span>Lahore, Pakistan</span>
+                    </div>
+                    <a href="tel:+923184651645" class="contact-item">
+                        <span class="contact-icon">📞</span>
+                        <span>+92 318 4651645</span>
+                    </a>
+                    <a href="mailto:muhammadfaseeh565@gmail.com" class="contact-item">
+                        <span class="contact-icon">✉️</span>
+                        <span>muhammadfaseeh565@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/muhammad-faseeh" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/Faseeh021" target="_blank" rel="noopener noreferrer" class="contact-item">
+                        <span class="contact-icon">💻</span>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Muhammad Faseeh. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
